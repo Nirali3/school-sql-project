@@ -28,8 +28,8 @@ CREATE TABLE courses(
 --- departments table
 CREATE TABLE departments(
   department_id INT PRIMARY KEY,
-  teacher_id INT,
   department_name VARCHAR(50),
+  teacher_id INT,
   FOREIGN KEY (teacher_id) REFERENCES teachers (teacher_id) REFERENCES courses (teacher_id)
   );
 
