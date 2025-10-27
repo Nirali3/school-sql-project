@@ -20,6 +20,7 @@
 ------ departments table column names
 1. department_id
 2. department_name
+3. teacher_id
 
 
 ------ enrollments table column names
