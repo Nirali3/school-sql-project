@@ -1,6 +1,6 @@
 ----Queries for school management database
 ----1. Extract the students first names from students table
-SELECT first_names FROM students
+SELECT first_name FROM students
 ---2. List all students
 SELECT * FROM students;
 ---3. list all students who lives in Newark
