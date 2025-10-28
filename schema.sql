@@ -21,7 +21,7 @@ CREATE TABLE teachers(
 CREATE TABLE courses(
   course_id INT PRIMARY KEY,
   course_name VARCHAR(50),
-  tearcher_id INT,
+  teacher_id INT,
   FOREIGN KEY(teacher_id) REFERENCES teachers(teacher_id)
   );
 
